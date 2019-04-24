@@ -5,5 +5,7 @@ services:
     container_name: mariadb
     environment:
       MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
     ports:
       - 3000:3000
